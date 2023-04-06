@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Socket Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">Web Socket Chat</header>
+        <main class="main">
+            <div class="aside">
+                <div class="aside__title">USERS</div>
+                <div class="aside__users"></div>
+            </div>
+            <div class="chat">
+                <div class="messages"></div>
+                <div class="send">
+                    <form class="send__form">
+                        <input type="text" name="message" class="send__message">
+                        <button class="send__btn" type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">DjCo</footer>
+
+        <div class="popup__wrap">
+            <div class="popup__content">
+                <span class="popup__title">Enter your name</span>
+                <form class="popup__form">
+                    <input type="text" name="name" class="popup__form-input">
+                    <button class="popup__form-btn" type="submit">SEND</button>
+                </form>
+                <span class="popup__error"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=3"></script>
+</body>
+
+</html>

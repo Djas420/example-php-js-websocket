@@ -1,0 +1,30 @@
+{
+	"name": "@djas420/example-php-js-websocket",
+	"version": "0.0.1",
+	"description": "Example php js websocket",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Djas420/example-php-js-websocket.git"
+	},
+	"keywords": [
+		"example",
+		"php",
+		"js",
+		"web",
+		"socket",
+		"websocket"
+	],
+	"author": "Djas420",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Djas420/example-php-js-websocket/issues"
+	},
+	"devDependencies": {
+		"eslint": "^8.28.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"http-server": "^14.1.1",
+		"stylelint": "^14.15.0",
+		"stylelint-config-rational-order": "^0.1.2",
+		"stylelint-order": "^5.0.0"
+	}
+}
